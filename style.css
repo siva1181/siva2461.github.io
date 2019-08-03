@@ -1,0 +1,58 @@
+body {
+	background-image: url(tree.jpg);
+	background-size: cover;
+}
+
+h2:hover {
+	text-align:center;
+	border:2px solid green;
+	color: red;
+}
+
+.one:first-child {
+	text-align:center;
+	border: 2px dashed green;
+
+}
+#laptop {
+	background: rgba(255, 0, 0, 0.2);
+}
+
+.yes {
+	border: 5px solid blue;
+	text-align: center;
+	font-family: sans-serif;
+	line-height:50px;
+	font-style: italic;
+	background: rgba(0, 0, 255, 0.2);
+}
+
+img {
+	width: 325px;
+	height:250px;
+	margin: 10px;
+	transition: all 1s;
+	box-shadow: 4px 4px 5px #888888; 
+}
+
+.container {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content:center;
+}
+
+img:hover {
+	transform: scale(1.1);
+}
+marquee {
+	font-family: impact;
+	border:2px solid blue;
+	margin: 50px 0px;
+}
+
+.way {
+	border:2px solid red;
+	display: inline-block;
+	padding: 20px 20px;
+	margin: 20px 20px;
+}
